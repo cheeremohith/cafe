@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Daily Grind — freshly brewed coffee, delicious bites, and a cozy place to unwind.">
+  <title>The Daily Grind | Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home"><span class="logo-mark">☕</span> the daily <strong>grind.</strong></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#menu">Menu</a><a href="#specials">Our picks</a>
+      <a href="#reviews">Reviews</a><a href="#visit" class="nav-cta">Visit us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">GOOD COFFEE. GOOD COMPANY.</p>
+        <h1>Your daily dose<br>of <em>happy.</em></h1>
+        <p class="hero-copy">Slow mornings, freshly ground coffee, and little moments worth savouring. Find your corner at The Daily Grind.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Explore the menu <span>→</span></a>
+          <a class="text-link light-link" href="#visit">Find our café</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> BREWED FRESH EVERY DAY</div>
+      </div>
+      <div class="hero-stamp"><span>EST.</span><strong>2024</strong><small>MADE WITH<br>LOVE</small></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div class="intro-image">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=85" alt="Barista pouring freshly brewed coffee">
+        <div class="image-tag">A little cup<br>of comfort</div>
+      </div>
+      <div class="intro-copy">
+        <p class="eyebrow">A PLACE TO PAUSE</p>
+        <h2>More than coffee.<br><em>It's a feeling.</em></h2>
+        <p>We believe the best days begin with a good cup and get better with great food. From carefully sourced beans to pastries baked fresh each morning, every detail is made to bring people together.</p>
+        <a class="under-link" href="#visit">Come say hello <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="menu-section section-wrap" id="menu">
+      <div class="section-heading">
+        <div><p class="eyebrow">MADE FRESH, SERVED WITH LOVE</p><h2>A menu for <em>every mood.</em></h2></div>
+        <p>Simple favourites, thoughtful ingredients, and a little something for your sweet tooth.</p>
+      </div>
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+        <button class="tab active" data-filter="all" role="tab" aria-selected="true">All favourites</button>
+        <button class="tab" data-filter="coffee" role="tab" aria-selected="false">Coffee</button>
+        <button class="tab" data-filter="food" role="tab" aria-selected="false">From the kitchen</button>
+        <button class="tab" data-filter="sweet" role="tab" aria-selected="false">Something sweet</button>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card" data-category="coffee"><div class="menu-icon">☕</div><div><h3>Classic Cappuccino</h3><p>Rich espresso, silky steamed milk, soft foam.</p></div><strong>₹160</strong></article>
+        <article class="menu-card" data-category="coffee"><div class="menu-icon">🧊</div><div><h3>Vanilla Iced Latte</h3><p>Double espresso, chilled milk, house vanilla.</p></div><strong>₹190</strong></article>
+        <article class="menu-card" data-category="coffee"><div class="menu-icon">🍵</div><div><h3>Matcha Cloud</h3><p>Earthy matcha with a creamy, cool finish.</p></div><strong>₹210</strong></article>
+        <article class="menu-card" data-category="food"><div class="menu-icon">🥪</div><div><h3>Garden Club Sandwich</h3><p>Toasted sourdough, crisp greens, herbed spread.</p></div><strong>₹240</strong></article>
+        <article class="menu-card" data-category="food"><div class="menu-icon">🥑</div><div><h3>Avocado Toast</h3><p>Whipped avocado, chilli flakes, lemon, seeds.</p></div><strong>₹260</strong></article>
+        <article class="menu-card" data-category="food"><div class="menu-icon">🥐</div><div><h3>Butter Croissant</h3><p>Golden, flaky layers baked fresh each morning.</p></div><strong>₹130</strong></article>
+        <article class="menu-card" data-category="sweet"><div class="menu-icon">🍰</div><div><h3>Chocolate Truffle Cake</h3><p>Dark chocolate sponge with a silky ganache.</p></div><strong>₹180</strong></article>
+        <article class="menu-card" data-category="sweet"><div class="menu-icon">🍪</div><div><h3>Choco Chip Cookie</h3><p>Golden edges, soft centre, generous chocolate.</p></div><strong>₹90</strong></article>
+      </div>
+      <p class="menu-footnote">* Menu and prices are sample content and may be customised.</p>
+    </section>
+
+    <section class="specials" id="specials">
+      <div class="specials-inner">
+        <div class="specials-copy"><p class="eyebrow light">THE CROWD PLEASERS</p><h2>Little treats.<br><em>Big joy.</em></h2><p>Meet the stars of our counter: made with care, best enjoyed slowly, and even better shared.</p><a class="button button-light" href="#menu">See the full menu <span>→</span></a></div>
+        <div class="special-cards">
+          <article class="special-card"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85" alt="Chocolate cake"><div><span>BAKED WITH LOVE</span><h3>Midnight Truffle</h3><p>Our rich chocolate signature cake.</p></div></article>
+          <article class="special-card offset"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=85" alt="Iced coffee"><div><span>HOUSE SPECIAL</span><h3>Brown Sugar Iced Latte</h3><p>A smooth sip with a caramel twist.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section-wrap" id="reviews">
+      <div class="section-heading review-heading"><div><p class="eyebrow">KIND WORDS, FULL HEARTS</p><h2>Don't just take<br><em>our word for it.</em></h2></div><div class="rating"><strong>4.9</strong><span>★★★★★</span><small>LOVED BY OUR REGULARS</small></div></div>
+      <div class="review-grid">
+        <article class="review-card"><div class="stars">★★★★★</div><p>“Such a warm, welcoming place. The coffee is excellent and the croissants are dangerously good!”</p><div class="reviewer"><span class="avatar">A</span><div><strong>Ananya R.</strong><small>Local coffee lover</small></div></div></article>
+        <article class="review-card featured-review"><div class="stars">★★★★★</div><p>“My favourite spot to catch up with friends or get a little work done. Lovely atmosphere and friendly people.”</p><div class="reviewer"><span class="avatar">K</span><div><strong>Karthik M.</strong><small>Weekend regular</small></div></div></article>
+        <article class="review-card"><div class="stars">★★★★★</div><p>“The iced latte is a must-try. Beautiful presentation, fresh food, and a really cosy vibe.”</p><div class="reviewer"><span class="avatar">S</span><div><strong>Sneha P.</strong><small>Happy customer</small></div></div></article>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit">
+      <div class="visit-photo"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85" alt="Cosy café interior"></div>
+      <div class="visit-content">
+        <p class="eyebrow light">YOUR TABLE IS WAITING</p><h2>Come on in.<br><em>Stay a while.</em></h2>
+        <div class="visit-details">
+          <div><span class="detail-icon">◷</span><section><h3>Opening hours</h3><p>Monday – Friday <b>8:00 AM – 9:00 PM</b></p><p>Saturday – Sunday <b>9:00 AM – 10:00 PM</b></p></section></div>
+          <div><span class="detail-icon">⌖</span><section><h3>Find us</h3><p>12, Garden Street, Vijayawada,<br>Andhra Pradesh, India</p><a href="https://www.google.com/maps/search/?api=1&query=Vijayawada%2C%20Andhra%20Pradesh" target="_blank" rel="noopener">Get directions ↗</a></section></div>
+          <div><span class="detail-icon">✉</span><section><h3>Say hello</h3><p>hello@thedailygrind.example</p><p>+91 98765 43210</p></section></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo footer-logo" href="#home"><span class="logo-mark">☕</span> the daily <strong>grind.</strong></a>
+    <p>Good things happen over coffee.</p>
+    <div class="socials"><a href="#home" aria-label="Instagram">ig</a><a href="#home" aria-label="Facebook">f</a><a href="#home" aria-label="Pinterest">p</a></div>
+    <small>© 2026 The Daily Grind Café. Made with care.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
